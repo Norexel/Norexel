@@ -2,6 +2,8 @@
 
 [LinkedIn](https://www.linkedin.com/in/bodyaga-mosiichuk-785434314/) &nbsp;&nbsp; [Zalizna Zmina](https://www.ironsquad.org.ua/) &nbsp;&nbsp; [Hotkey Launcher](https://github.com/Norexel/hotkey-launcher)
 
+<img src="assets/about.svg" width="100%" alt="About. Two years building web, desktop and game software. Studying at Kyiv Aviation Institute, competing in olympiads, web and product developer at Zalizna Zmina.">
+
 <img src="assets/flight.svg" width="100%" alt="Flight profile: first sites in March 2025, C++ apps in June 2025, silver in AI at Genius Olympiad, enrolled at KAI in 2025, gold in software at Infomatrix 2026, web developer at Zalizna Zmina in 2026.">
 
 <img src="assets/stack.svg" width="100%" alt="Tools: C++, C#, JavaScript, HTML and AI agents.">

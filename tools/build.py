@@ -239,5 +239,30 @@ def footer():
     write("footer.svg", svg(W, H, "".join(b), "Norexel", "Open to hackathons, internships and team projects."))
 
 
+# ---------------------------------------------------------------- about
+def about():
+    W, H = 1200, 700
+    b = [f'<rect width="{W}" height="{H}" fill="{GROUND}"/>', text("About", 60, 120, 76, INK, 700, -0.02)]
+    y = 195
+    for ln in wrap("Two years building web, desktop and game software. I turn ideas into working products and I am drawn to automation, robotics and AI.", 36, 400, 1080):
+        b.append(f'<g class="in" style="--d:300">' + text(ln, 62, y, 36, INK, 400) + "</g>")
+        y += 52
+    cards = [
+        (FIELD, INK, SOFT, "Studying", "Kyiv Aviation Institute. Automation, Computer-Integrated Technologies and Robotics.", "2025-2029"),
+        (FIELD, INK, SOFT, "Competing", "Small Academy of Sciences of Ukraine, information technology track.", "Infomatrix, Genius Olympiad"),
+        (ACCENT, GROUND, GROUND, "Working", "Web and product developer at Zalizna Zmina. Website, educational platform, help support.", "Since 2026"),
+    ]
+    cw, gap, cy, ch = 352, 12, 330, 310
+    for i, (bg, fg, sf, t, body, tag) in enumerate(cards):
+        x = 60 + i * (cw + gap)
+        g = [f'<rect x="{x}" y="{cy}" width="{cw}" height="{ch}" fill="{bg}"/>', text(t, x + 28, cy + 30 + 44, 44, fg, 700, -0.01)]
+        yy = cy + 140
+        for ln in wrap(body, 24, 400, cw - 56):
+            g.append(text(ln, x + 28, yy, 24, fg, 400)); yy += 33
+        g.append(text(tag, x + 28, cy + ch - 28, 22, sf, 700))
+        b.append(f'<g class="in" style="--d:{500 + i * 150}">' + "".join(g) + "</g>")
+    write("about.svg", svg(W, H, "".join(b), "About", "Studying at Kyiv Aviation Institute, competing in olympiads, working as web developer at Zalizna Zmina."))
+
+
 if __name__ == "__main__":
-    hero(); flight(); stack(); projects(); footer()
+    hero(); about(); flight(); stack(); projects(); footer()
