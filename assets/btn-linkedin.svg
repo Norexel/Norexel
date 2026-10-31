@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178 64" width="178" height="64" role="img"><title>LinkedIn</title><desc></desc><style>
+@keyframes rise{from{transform:translateY(70px);opacity:0}}
+@keyframes fade{from{opacity:0}}
+@keyframes lift{from{transform:translateY(28px);opacity:0}}
+@keyframes grow{from{transform:scaleY(0)}}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+@keyframes ping{0%{transform:scale(1);opacity:.9}100%{transform:scale(2.8);opacity:0}}
+.l{animation:rise 1s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--i)*70ms + 150ms)}
+.in{animation:fade .8s ease-out both;animation-delay:calc(var(--d,0)*1ms)}
+.up{animation:lift .9s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--d,0)*1ms)}
+.grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow .9s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--d,0)*1ms)}
+.pt{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--d,0)*1ms)}
+.ring{transform-box:fill-box;transform-origin:center;opacity:0;animation:ping 2.4s ease-out infinite;animation-delay:7.4s}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><rect x="0" y="0" width="178" height="64" fill="#FF5A1F"/><path fill="#101214" d="M38.2 22.1H41.9V42H38.2ZM39.9 38.4H51.5V42H39.9ZM53.8 22.1H57.5V25.9H53.8ZM53.8 27.8H57.5V42H53.8ZM61 27.8H64.7V42H61ZM69.2 33.4Q69.2 32.4 68.6 31.8Q68 31.2 66.9 31.2Q65.9 31.2 65.3 31.8Q64.7 32.4 64.7 33.4L64.5 30.3Q65.1 28.9 66 28.3Q66.9 27.6 68.2 27.6Q70.5 27.6 71.7 29.1Q72.9 30.6 72.9 33.4V42H69.2ZM78.4 36.9 85 27.8H89L78.9 41ZM76.6 22.1H80.4V42H76.6ZM81.7 34.7 84.8 32.8 89.7 42H85.3ZM91 35.8V34.2Q91 32.1 91.8 30.7Q92.5 29.2 93.9 28.4Q95.3 27.6 97.3 27.6Q99.1 27.6 100.5 28.5Q101.8 29.5 102.5 31.2Q103.2 33 103.2 35.5V36.4H93.5V33.9H99.8L99.7 33.6Q99.6 32.3 98.9 31.7Q98.3 31 97.3 31Q95.9 31 95.2 31.8Q94.4 32.6 94.4 34.1V35.9Q94.4 37.4 95.2 38.1Q96.1 38.9 97.5 38.9Q98.3 38.9 99 38.7Q99.8 38.4 100.4 37.9L102.8 40.1Q101.7 41.1 100.3 41.7Q98.9 42.2 97.5 42.2Q95.5 42.2 94 41.5Q92.6 40.7 91.8 39.3Q91 37.9 91 35.8ZM114.1 22.1H117.9V42H114.1ZM106 36.1V33.8Q106 31.8 106.6 30.4Q107.2 29.1 108.2 28.3Q109.3 27.6 110.8 27.6Q111.9 27.6 112.9 28.3Q113.8 29 114.4 30.2L114.1 33.3Q114.1 32.6 113.9 32.1Q113.6 31.6 113.1 31.3Q112.7 31.1 112 31.1Q110.9 31.1 110.4 31.8Q109.8 32.5 109.8 33.8V36.1Q109.8 37.3 110.4 38Q110.9 38.7 112 38.7Q112.7 38.7 113.1 38.5Q113.6 38.2 113.9 37.7Q114.1 37.2 114.1 36.5L114.3 39.8Q113.9 40.9 113 41.6Q112.1 42.2 110.8 42.2Q109.3 42.2 108.2 41.5Q107.2 40.8 106.6 39.4Q106 38 106 36.1ZM125.4 42H121.5V22.1H125.4ZM129.3 27.8H133V42H129.3ZM137.5 33.4Q137.5 32.4 136.9 31.8Q136.3 31.2 135.2 31.2Q134.1 31.2 133.6 31.8Q133 32.4 133 33.4L132.7 30.3Q133.4 28.9 134.3 28.3Q135.1 27.6 136.5 27.6Q138.7 27.6 140 29.1Q141.2 30.6 141.2 33.4V42H137.5Z"/></svg>
